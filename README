@@ -1,0 +1,64 @@
+
+	******************************
+
+	NOTTING HILL CARNIVAL APP 2013
+	
+	******************************
+
+
+CONTACT:
+--------
+
+jamie@craftsmanwebsites.co.uk
+franky@craftsmanwebsites.co.uk
+
+
+
+IMPORTANT INFO:
+----------------
+
+ProjectTitle:
+NottingHillCarnival2013
+
+Package Name:
+com.2013.NottingHillCarnival
+
+
+
+INTRODUCTION:
+-------------
+
+A phone gap app that displays a map, the sound systems on the map , and uses gprs / 3g to show the user's location on the map.
+
+It has these important features:
+
+1. SLIDE PANEL LAYOUT
+
+2. GPRS / 3G CALCULATE POSITION
+
+3. FACEBOOK INTEGRATION - PUBLISH MY LOCATION
+
+4. ADD ANALYTICS - FLURRY ( OR LOCALYTICS - FREE TRIAL? )
+
+5. TWITTER IF AVAILABLE
+
+6. PUSH NOTIFICATIONS 
+	- REMEMBER TO UPDATE THE APP - SATURDAY
+	- SPONSORS MESSAGE - ...
+	- REMEMBER CARNIVAL ENDS AT ____
+	- UPDATE LOCATIONS
+
+7. LOCALLY STORED MAP IMAGE , AND LOCALLY STORED LATEST TWEET
+
+
+
+COORDINATES FOR MAP:
+---------------------
+
+650 x 650 pixels :
+
+51.527756,-0.218618
+
+51.508395,-0.187504
+
+

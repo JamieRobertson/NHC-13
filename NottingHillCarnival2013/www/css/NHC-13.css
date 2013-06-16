@@ -1,0 +1,306 @@
+/* NHC-13 stylesheet */
+
+
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color:#E4E4E4;
+    background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:-ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:-webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, #A7A7A7),
+        color-stop(0.51, #E4E4E4)
+    );
+    background-attachment:fixed;
+    font-family: sans-serif;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+}
+a img {
+    outline: none;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+h1, h2, h3, h4 {
+	text-rendering: optimizelegibility;
+}
+
+.btn, .markers li a {
+	background: url('img/NHC-13-spriteSheet.png') no-repeat;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), 
+only screen and (min-device-pixel-ratio: 2) {
+    .btn {
+		background: url('img/NHC-13-spriteSheet@2X.png') no-repeat;
+		background-size: 960px 20px;
+	}
+}
+
+.header {
+	position: fixed;
+	top: -1px;
+	padding-top: 1px;
+	left: 0;
+	right: 0;
+	width: 100%;
+	color: #222;
+	text-shadow: 0 1px 1px #eee;
+	background-color: #ccc;
+	border: 1px solid #111;
+	border-left-width: 0;
+	border-right-width: 0;
+	z-index: 100;
+	zoom: 1;
+}
+
+.header h1 {
+	font-family: 'MuseoSlab-500';
+	text-transform: uppercase;
+	font-weight: 500;
+	min-height: 1.1em;
+	text-align: center;
+	font-size: 17px;
+	display: block;
+	margin: .7em 22% .7em;
+	padding: 0;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	outline: 0 !important;
+}
+
+.header .btn {
+	position: absolute;
+	display: inline-block;
+	top: 8px;
+	margin: 0;
+	padding: 0;
+	width: 28px;
+	height: 26px;
+	vertical-align: middle;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+	z-index: 10; /* what - header is 1000 */
+}
+
+.menu.btn {
+	left: 7px;
+	border-right: 1px solid	#666;
+	background-position: -1px 2px;
+}
+
+.dropDown.btn {
+	right: 7px;
+	border-left: 1px solid	#666;
+	background-position: -35px 3px;
+}
+
+.soundsystemMenu {
+	display: none;
+	position: relative;
+	background-color: #000;
+	width: 280px;
+	height: 360px;
+	margin: 65px auto 0;
+	padding: 0 10px;
+	border-top: 10px solid #000;
+	border-bottom: 10px solid #000;
+	z-index: 10000 !important;
+}
+.soundsystemMenu .scroll {
+	overflow: auto; /* try hidden */
+	height: 360px;
+}
+.soundsystemMenu li a {
+	display: block;
+	width: 270px;
+	height: 30px;
+	margin-bottom: 5px;
+	padding: 10px 0 10px 10px;
+	font-size: 19px;
+	background-color: #fff;
+}
+.soundsystemMenu li:nth-child(even) a {
+	background-color: #eee;
+}
+.soundsystemMenu .arrow {
+	position: absolute;
+	width: 0;
+	height: 0;
+	top: -24px;
+	right: 0;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-bottom: 15px solid #000;
+}
+
+.map {
+	position: relative;
+	/*
+	width: 100%;
+	min-width: 100%;
+	*/
+	width: 320px;
+	height: 461px;
+	overflow: auto;
+	transform: translate3d(0,0,0);
+	-webkit-transform: translate3d(0,0,0);
+	/*background: url('img/NHC-13-map.png') no-repeat;*/
+}
+.markers {
+	/*
+	display: none;
+	*/
+}
+.markers li a {
+	display: block;
+	position: absolute;
+	width: 22px;
+	height: 22px;
+	margin-left: -10px;
+	margin-top: -20px;
+}
+.markers.toilets li a {
+	background: url('img/marker-toilets.png') no-repeat; 
+}
+.markers.firstAid li a {
+	background: url('img/marker-firstAid.png') no-repeat; 
+}
+.markers.route li a {
+	background: url('img/marker-route.png') no-repeat; 
+}
+.markers.soundsystems li a {
+	background-position: -401px 0px;
+}
+.markers.stations li a {
+	background-position: -320px 0px;
+}
+
+.blueDot {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-position: -360px 0;
+}
+
+.stations li a[data-name="Bayswater"] { top: 40%; left: 64%; }
+.stations li a[data-name="NH-gate"] { top: 50%; left: 84%; }
+
+.soundsystems li a[data-name="Four-Play"] { top: 50%; left: 34%; }
+.soundsystems li a[data-name="Aba-shan-ti"] { top: 70%; left: 74%; }
+
+.popoverBlock {
+	display: none;
+	position: absolute;
+	top: 100px;
+	margin-left: -95px;
+	margin-top: -90px; /* arrow = 10px , av.Height = 80px */
+	width: 190px;
+
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+
+	padding: 1px;
+	background-clip: padding-box;
+	-webkit-background-clip: padding-box;
+
+	background-color: #FFFFFF;
+
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+
+	transition: opacity 0.15s linear;
+	-webkit-transition: opacity 0.15s linear;
+
+	text-align: left;
+	white-space: normal;
+	z-index: 1000 !important;
+}
+.popoverBlock .popoverTitle {
+	padding: 7px 9px;
+	margin: 0;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 18px;
+	background-color: #f7f7f7;
+	border-bottom: 1px solid #ebebeb;
+	border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	font-family: 'MuseoSlab-500';
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.popoverBlock .close {
+	position: absolute;
+	display: inline-block;
+	top: 7px;
+	right: 5px;
+	margin: 0;
+	padding: 0;
+	width: 24px;
+	height: 24px;
+	vertical-align: middle;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+	/*z-index: 10;*/ /* what - header is 1000 */
+	background-position: -440px 0;
+}
+.popoverBlock .popoverContent {
+	padding: 7px 9px;
+}
+.popoverBlock .arrow {
+	position: absolute;
+	display: block;
+	width: 0;
+	height: 0;
+	bottom: -11px;
+	left: 50%;
+	margin-left: -11px;
+	border-top-color: rgba(0, 0, 0, 0.25);
+	border-bottom-width: 0;
+	border-width: 11px;
+	border-color: transparent;
+	border-style: solid;
+}
+.popoverBlock .arrow:after {
+	content: "";
+	border-width: 10px;
+	bottom: 1px;
+	margin-left: -10px;
+	border-top-color: #FFFFFF;
+	border-bottom-width: 0;
+}
+
+@font-face {
+    font-family: 'MuseoSlab-500';
+    /*src: url('fonts/MuseoSlab-500.eot');*/
+    src: /*url('fonts/MuseoSlab-500.eot?#iefix') format('embedded-opentype'),
+         url('fonts/MuseoSlab-500.woff') format('woff'),*/
+         url('fonts/MuseoSlab-500.ttf') format('truetype'),
+         url('fonts/MuseoSlab-500.svg#MuseoSlab-500') format('svg');
+		 
+	font-weight: 500;
+}

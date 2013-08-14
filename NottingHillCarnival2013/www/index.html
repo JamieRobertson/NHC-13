@@ -27,141 +27,157 @@
         <title>Notting Hill Carnival App 2013</title>
     </head>
     <body>
-        <div class="header">
-            <a href="#" class="menu btn" id="panelBtn"></a>
-            <h1 id="headerTitle"></h1>
-            <a href="#" class="dropDown btn" id="dropDownBtn"></a>
-        </div>
-        <div class="soundsystemMenu" id="soundsystemMenu">
-            <div class="arrow"></div>
-            <div class="scroll" id="scroll">
-                <ul>
-                    <li><a data-name="Four-Play" href="#">4Play</a></li>
-                    <li><a data-name="Aba-shan-ti" href="#">Aba-shan-ti</a></li>
-                    <li><a data-name="Arts-A-Light" href="#">Arts A Light</a></li>
-                    <li><a data-name="Blackstar-Showtime" href="#">Blackstar Showtime</a></li>
-                    <li><a data-name="Channel-One" href="#">Channel One</a></li>
-                    <li><a data-name="CMC-Matrix" href="#">CMC Matrix</a></li>
-                    <li><a data-name="Different-Strokes" href="#">Different Strokes</a></li>
-                    <li><a data-name="Disco-Hustlers" href="#">Disco Hustlers</a></li>
-                    <li><a data-name="Disya-Generation" href="#">Disya Generation</a></li>
-                    <li><a data-name="Gazs-Rockin-Blues" href="#">Gaz's Rockin' Blues</a></li>
-                    <li><a data-name="GI-Roadshow" href="#">GI Roadshow</a></li>
-                    <li><a data-name="Gladdy-Waxs-Roadshow" href="#">Gladdy Wax's Roadshow</a></li>
-                    <li><a data-name="GT-Flex-Roadshow" href="#">GT Flex Roadshow</a></li>
-                    <li><a data-name="High-Grade" href="#">High Grade</a></li>
-                    <li><a data-name="Jah-Observer" href="#">Jah Observer</a></li>
-                    <li><a data-name="Killawatt" href="#">Killawatt</a></li>
-                    <li><a data-name="King-Tubbys" href="#">King Tubbys</a></li>
-                    <li><a data-name="Latin-Rave-Street-Jam" href="#">Latin Rave Street Jam</a></li>
-                    <li><a data-name="Lord-Gellys" href="#">Lord Gelly's</a></li>
-                    <li><a data-name="Mangrove-Sound" href="#">Mangrove Sound</a></li>
-                    <li><a data-name="Mastermind-Roadshow" href="#">Mastermind Roadshow</a></li>
-                    <li><a data-name="Mellowtone" href="#">Mellowtone</a></li>
-                    <li><a data-name="Metro-Glory" href="#">Metro Glory</a></li>
-                    <li><a data-name="Nasty-Love-Mixing-Lab" href="#">Nasty Love Mixing Lab</a></li>
-                    <li><a data-name="Peoples-Sound" href="#">People's Sound</a></li>
-                    <li><a data-name="Pineapple-Tribe" href="#">Pineapple Tribe</a></li>
-                    <li><a data-name="Rapattack" href="#">Rapattack</a></li>
-                    <li><a data-name="Rough-But-Sweet" href="#">Rough But Sweet</a></li>
-                    <li><a data-name="Sancho-Panza" href="#">Sancho Panza</a></li>
-                    <li><a data-name="Saxon-Studio" href="#">Saxon Studio</a></li>
-                    <li><a data-name="Sir-Lloyd" href="#">Sir Lloyd</a></li>
-                    <li><a data-name="Sir-Valdez" href="#">Sir Valdez</a></li>
-                    <li><a data-name="SSP-Sound-System" href="#">SSP Sound System</a></li>
-                    <li><a data-name="The-Fun-Bunch" href="#">The Fun Bunch</a></li>
-                    <li><a data-name="Virgo-International" href="#">Virgo International</a></li>
+        <section id="mainWrapper" role="main">
+            <header class="header">
+                <a href="#" class="menu btn" id="sidebarBtn"></a>
+                <h1 id="headerTitle"></h1>
+                <a href="#" class="dropDown btn" id="dropDownBtn"></a>
+            </header>
+            
+            <div class="mapWrapper">
+                <div class="map" id="map">
+                    <div class="blueDot btn" id="youAreHere"></div>
+                    <!--<p id="geolocation">Watching geolocation...</p>-->
+                    <div class="markers stations" id="stationMarkers">
+                        <ul>
+                            <li><a data-name="Westbourne-Park" href="#"></a></li>
+                            <li><a data-name="Ladbroke-Grove" href="#"></a></li>
+                            <li><a data-name="Royal-Oak" href="#"></a></li>
+                            <li><a data-name="Bayswater" href="#"></a></li>
+                            <li><a data-name="NH-gate" href="#"></a></li>
+                        </ul>
+                    </div>
+                    <div class="markers soundsystems" id="soundSystemMarkers">
+                        <ul>
+                            <li><a data-name="Four-Play" href="#"></a></li>
+                            <li><a data-name="Aba-shan-ti" href="#"></a></li>
+                            <li><a data-name="Arts-A-Light" href="#"></a></li>
+                            <li><a data-name="Blackstar-Showtime" href="#"></a></li>
+                            <li><a data-name="Channel-One" href="#"></a></li>
+                            <li><a data-name="CMC-Matrix" href="#"></a></li>
+                            <li><a data-name="Different-Strokes" href="#"></a></li>
+                            <li><a data-name="Disco-Hustlers" href="#"></a></li>
+                            <li><a data-name="Disya-Generation" href="#"></a></li>
+                            <li><a data-name="Gazs-Rockin-Blues" href="#"></a></li>
+                            <li><a data-name="GI-Roadshow" href="#"></a></li>
+                            <li><a data-name="Gladdy-Waxs-Roadshow" href="#"></a></li>
+                            <li><a data-name="GT-Flex-Roadshow" href="#"></a></li>
+                            <li><a data-name="High-Grade" href="#"></a></li>
+                            <li><a data-name="Jah-Observer" href="#"></a></li>
+                            <li><a data-name="Killawatt" href="#"></a></li>
+                            <li><a data-name="King-Tubbys" href="#"></a></li>
+                            <li><a data-name="Latin-Rave-Street-Jam" href="#"></a></li>
+                            <li><a data-name="Lord-Gellys" href="#"></a></li>
+                            <li><a data-name="Mangrove-Sound" href="#"></a></li>
+                            <li><a data-name="Mastermind-Roadshow" href="#"></a></li>
+                            <li><a data-name="Mellowtone" href="#"></a></li>
+                            <li><a data-name="Metro-Glory" href="#"></a></li>
+                            <li><a data-name="Nasty-Love-Mixing-Lab" href="#"></a></li>
+                            <li><a data-name="Peoples-Sound" href="#"></a></li>
+                            <li><a data-name="Pineapple-Tribe" href="#"></a></li>
+                            <li><a data-name="Rapattack" href="#"></a></li>
+                            <li><a data-name="Rough-But-Sweet" href="#"></a></li>
+                            <li><a data-name="Sancho-Panza" href="#"></a></li>
+                            <li><a data-name="Saxon-Studio" href="#"></a></li>
+                            <li><a data-name="Sir-Lloyd" href="#"></a></li>
+                            <li><a data-name="Sir-Valdez" href="#"></a></li>
+                            <li><a data-name="SSP-Sound-System" href="#"></a></li>
+                            <li><a data-name="The-Fun-Bunch" href="#"></a></li>
+                            <li><a data-name="Virgo-International" href="#"></a></li>
+                        </ul>
+                    </div>
+                    <!--
+                    <div class="markers route" id="routeMarkers">
+                        <ul>
+                            <li><a href="#" style="top: 10%; left: 10%;"></a></li>
+                            <li><a href="#" style="top: 10%; left: 10%;"></a></li>
+                        </ul>
+                    </div>
+                    <div class="markers firstAid" id="firstAidMarkers">
+                        <ul>
+                            <li><a href="#" style="top: 10%; left: 10%;"></a></li>
+                        </ul>
+                    </div>
+                    <div class="markers toilets" id="toiletMarkers">
+                        <ul>
+                            <li><a href="#" style="top: 10%; left: 10%;"></a></li>
+                        </ul>
+                    </div>
+                    -->
+                    <div class="popoverBlock" id="popoverBlock">
+                        <div class="arrow"></div>
+                        <h3 class="popoverTitle" id="popoverTitle"></h3>
+                        <a href="#" class="close btn" id="closeBtn"></a>
+                        <div class="popoverContent" id="popoverContent"></div>
+                    </div>
+                    <img src="img/NHC-13-map@2x.png" />
+                </div>
+            </div>
+
+            <div class="soundsystemMenu" id="soundsystemMenu">
+                <div class="arrow"></div>
+                <div class="scroll" id="scroll">
+                    <ul>
+                        <li><a data-name="Four-Play" href="#">4Play</a></li>
+                        <li><a data-name="Aba-shan-ti" href="#">Aba-shan-ti</a></li>
+                        <li><a data-name="Arts-A-Light" href="#">Arts A Light</a></li>
+                        <li><a data-name="Blackstar-Showtime" href="#">Blackstar Showtime</a></li>
+                        <li><a data-name="Channel-One" href="#">Channel One</a></li>
+                        <li><a data-name="CMC-Matrix" href="#">CMC Matrix</a></li>
+                        <li><a data-name="Different-Strokes" href="#">Different Strokes</a></li>
+                        <li><a data-name="Disco-Hustlers" href="#">Disco Hustlers</a></li>
+                        <li><a data-name="Disya-Generation" href="#">Disya Generation</a></li>
+                        <li><a data-name="Gazs-Rockin-Blues" href="#">Gaz's Rockin' Blues</a></li>
+                        <li><a data-name="GI-Roadshow" href="#">GI Roadshow</a></li>
+                        <li><a data-name="Gladdy-Waxs-Roadshow" href="#">Gladdy Wax's Roadshow</a></li>
+                        <li><a data-name="GT-Flex-Roadshow" href="#">GT Flex Roadshow</a></li>
+                        <li><a data-name="High-Grade" href="#">High Grade</a></li>
+                        <li><a data-name="Jah-Observer" href="#">Jah Observer</a></li>
+                        <li><a data-name="Killawatt" href="#">Killawatt</a></li>
+                        <li><a data-name="King-Tubbys" href="#">King Tubbys</a></li>
+                        <li><a data-name="Latin-Rave-Street-Jam" href="#">Latin Rave Street Jam</a></li>
+                        <li><a data-name="Lord-Gellys" href="#">Lord Gelly's</a></li>
+                        <li><a data-name="Mangrove-Sound" href="#">Mangrove Sound</a></li>
+                        <li><a data-name="Mastermind-Roadshow" href="#">Mastermind Roadshow</a></li>
+                        <li><a data-name="Mellowtone" href="#">Mellowtone</a></li>
+                        <li><a data-name="Metro-Glory" href="#">Metro Glory</a></li>
+                        <li><a data-name="Nasty-Love-Mixing-Lab" href="#">Nasty Love Mixing Lab</a></li>
+                        <li><a data-name="Peoples-Sound" href="#">People's Sound</a></li>
+                        <li><a data-name="Pineapple-Tribe" href="#">Pineapple Tribe</a></li>
+                        <li><a data-name="Rapattack" href="#">Rapattack</a></li>
+                        <li><a data-name="Rough-But-Sweet" href="#">Rough But Sweet</a></li>
+                        <li><a data-name="Sancho-Panza" href="#">Sancho Panza</a></li>
+                        <li><a data-name="Saxon-Studio" href="#">Saxon Studio</a></li>
+                        <li><a data-name="Sir-Lloyd" href="#">Sir Lloyd</a></li>
+                        <li><a data-name="Sir-Valdez" href="#">Sir Valdez</a></li>
+                        <li><a data-name="SSP-Sound-System" href="#">SSP Sound System</a></li>
+                        <li><a data-name="The-Fun-Bunch" href="#">The Fun Bunch</a></li>
+                        <li><a data-name="Virgo-International" href="#">Virgo International</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--
+            <div class="app">
+                <h1>Apache Cordova</h1>
+                <div id="deviceready" class="blink">
+                    <p class="event listening">Connecting to Device</p>
+                    <p class="event received">Device is Ready</p>
+                </div>
+            </div>
+            -->
+        </section>
+        <section id="sidebar" role="complementary">
+            <nav id="sideMenu" role="navigation">
+                <ul id="sideMainNav">
+                    <li><a class="current" href="#nav-soundsystems"><span></span>Soundsystems</a></li>
+                    <li><a class="" href="#nav-the-route"><span></span>The Route</a></li>
+                    <li><a class="" href="#nav-first-aid"><span></span>First Aid</a></li>
+                    <li><a class="" href="#nav-toilets"><span></span>Toilets</a></li>
+                    <!--<li><a class="" href="#nav-share-my-location">Share my location</a></li>
+                    <li><a class="" href="#nav-information">Information</a></li>-->
                 </ul>
-            </div>
-        </div>
-        <div class="wrapper">
-            <div class="map" id="map">
-                <div class="blueDot btn" id="youAreHere"></div>
-                <!--<p id="geolocation">Watching geolocation...</p>-->
-                <div class="markers stations" id="stationMarkers">
-                    <ul>
-                        <li><a data-name="Westbourne-Park" href="#"></a></li>
-                        <li><a data-name="Ladbroke-Grove" href="#"></a></li>
-                        <li><a data-name="Royal-Oak" href="#"></a></li>
-                        <li><a data-name="Bayswater" href="#"></a></li>
-                        <li><a data-name="NH-gate" href="#"></a></li>
-                    </ul>
-                </div>
-                <div class="markers soundsystems" id="soundSystemMarkers">
-                    <ul>
-                        <li><a data-name="Four-Play" href="#"></a></li>
-                        <li><a data-name="Aba-shan-ti" href="#"></a></li>
-                        <li><a data-name="Arts-A-Light" href="#"></a></li>
-                        <li><a data-name="Blackstar-Showtime" href="#"></a></li>
-                        <li><a data-name="Channel-One" href="#"></a></li>
-                        <li><a data-name="CMC-Matrix" href="#"></a></li>
-                        <li><a data-name="Different-Strokes" href="#"></a></li>
-                        <li><a data-name="Disco-Hustlers" href="#"></a></li>
-                        <li><a data-name="Disya-Generation" href="#"></a></li>
-                        <li><a data-name="Gazs-Rockin-Blues" href="#"></a></li>
-                        <li><a data-name="GI-Roadshow" href="#"></a></li>
-                        <li><a data-name="Gladdy-Waxs-Roadshow" href="#"></a></li>
-                        <li><a data-name="GT-Flex-Roadshow" href="#"></a></li>
-                        <li><a data-name="High-Grade" href="#"></a></li>
-                        <li><a data-name="Jah-Observer" href="#"></a></li>
-                        <li><a data-name="Killawatt" href="#"></a></li>
-                        <li><a data-name="King-Tubbys" href="#"></a></li>
-                        <li><a data-name="Latin-Rave-Street-Jam" href="#"></a></li>
-                        <li><a data-name="Lord-Gellys" href="#"></a></li>
-                        <li><a data-name="Mangrove-Sound" href="#"></a></li>
-                        <li><a data-name="Mastermind-Roadshow" href="#"></a></li>
-                        <li><a data-name="Mellowtone" href="#"></a></li>
-                        <li><a data-name="Metro-Glory" href="#"></a></li>
-                        <li><a data-name="Nasty-Love-Mixing-Lab" href="#"></a></li>
-                        <li><a data-name="Peoples-Sound" href="#"></a></li>
-                        <li><a data-name="Pineapple-Tribe" href="#"></a></li>
-                        <li><a data-name="Rapattack" href="#"></a></li>
-                        <li><a data-name="Rough-But-Sweet" href="#"></a></li>
-                        <li><a data-name="Sancho-Panza" href="#"></a></li>
-                        <li><a data-name="Saxon-Studio" href="#"></a></li>
-                        <li><a data-name="Sir-Lloyd" href="#"></a></li>
-                        <li><a data-name="Sir-Valdez" href="#"></a></li>
-                        <li><a data-name="SSP-Sound-System" href="#"></a></li>
-                        <li><a data-name="The-Fun-Bunch" href="#"></a></li>
-                        <li><a data-name="Virgo-International" href="#"></a></li>
-                    </ul>
-                </div>
-                <!--
-                <div class="markers route" id="routeMarkers">
-                    <ul>
-                        <li><a href="#" style="top: 10%; left: 10%;"></a></li>
-                        <li><a href="#" style="top: 10%; left: 10%;"></a></li>
-                    </ul>
-                </div>
-                <div class="markers firstAid" id="firstAidMarkers">
-                    <ul>
-                        <li><a href="#" style="top: 10%; left: 10%;"></a></li>
-                    </ul>
-                </div>
-                <div class="markers toilets" id="toiletMarkers">
-                    <ul>
-                        <li><a href="#" style="top: 10%; left: 10%;"></a></li>
-                    </ul>
-                </div>
-                -->
-                <div class="popoverBlock" id="popoverBlock">
-                    <div class="arrow"></div>
-                    <h3 class="popoverTitle" id="popoverTitle"></h3>
-                    <a href="#" class="close btn" id="closeBtn"></a>
-                    <div class="popoverContent" id="popoverContent"></div>
-                </div>
-                <img src="img/NHC-13-map.png" />
-            </div>
-        </div>
-        <!--
-        <div class="app">
-            <h1>Apache Cordova</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-            </div>
-        </div>
-        -->
+            </nav>
+        </section>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/zepto.min.js"></script>
         <script type="text/javascript" src="js/touch.js"></script>

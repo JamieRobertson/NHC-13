@@ -120,176 +120,262 @@ var app = {
     	var Data = {
 			"Four-Play" : {
 				"Title" : "4Play",
-				"Content" : "House, garage, R&B, hip hop, <br />bashment, reggae"
+				"Content" : "House, garage, R&B, hip hop, bashment, reggae",
+                "Left" : 14.781127466735294,
+                "Top" : 7.515107690718373
 			},
 			"Aba-shan-ti" : {
 				"Title" : "Aba-shan-ti",
-				"Content" : "Roots, reggae, dub"
+				"Content" : "Roots, reggae, dub",
+                "Left" : 24.918043324548467,
+                "Top" : 16.34213108826077
 			},
 			"Arts-A-Light" : {
 				"Title" : "Arts A Light",
-				"Content" : "R&B, reggae, <br />hip hop, classic garage"
+				"Content" : "R&B, reggae, hip hop, classic garage",
+                "Left" : 26.05900880632514,
+                "Top" : 32.353700738569785
 			},
 			"Blackstar-Showtime" : {
 				"Title" : "Blackstar Showtime",
-				"Content" : "Reggae, ragga, soul"
+				"Content" : "Reggae, ragga, soul",
+                "Left" : 30.195410426174757,
+                "Top" : 17.788337379240087
 			},
 			"Channel-One" : {
 				"Title" : "Channel One",
-				"Content" : "Roots & culture"
+				"Content" : "Roots & culture",
+                "Left" : 58.09281995243302,
+                "Top" : 49.646195960937284
 			},
 			"CMC-Matrix" : {
 				"Title" : "CMC Matrix",
-				"Content" : "Drum & bass"
+				"Content" : "Drum & bass",
+                "Left" : 47.05598765828892,
+                "Top" : 49.09870357933312
 			},
 			"Different-Strokes" : {
 				"Title" : "Different Strokes",
-				"Content" : "Anything goes, house-party style"
+				"Content" : "Anything goes, house-party style",
+                "Left" : 53.05650189625247,
+                "Top" : 47.719642580413094
 			},
 			"Disco-Hustlers" : {
 				"Title" : "Disco Hustlers",
-				"Content" : "House music through the ages"
+				"Content" : "House music through the ages",
+                "Left" : 54.920614514366584,
+                "Top" : 60.270647177303395
 			},
 			"Disya-Generation" : {
 				"Title" : "Disya Generation",
-				"Content" : "R&B, hip hop, bashment, soca"
+				"Content" : "R&B, hip hop, bashment, soca",
+                "Left" : 55.402712605258095,
+                "Top" : 54.54780228291721
 			},
             "Gazs-Rockin-Blues" : {
                 "Title" : "Gaz's Rockin' Blues",
-                "Content" : "Classic ska, revival, <br />New Orlean's R&B"
+                "Content" : "Classic ska, revival, New Orlean's R&B",
+                "Left" : 59.95371858327443,
+                "Top" : 57.44021486491254
             },
             "GI-Roadshow" : {
                 "Title" : "GI Roadshow",
-                "Content" : "Reggae, bashment, salsa, R&B"
+                "Content" : "Reggae, bashment, salsa, R&B",
+                "Left" : 20.161342161085045,
+                "Top" : 7.582252982777667
             },
             "Gladdy-Waxs-Roadshow" : {
                 "Title" : "Gladdy Wax's Roadshow",
-                "Content" : "Roots & culture, reggae & ska"
+                "Content" : "Roots & culture, reggae & ska",
+                "Left" : 29.883653660731508,
+                "Top" : 35.581839780971684
             },
             "GT-Flex-Roadshow" : {
                 "Title" : "GT Flex Roadshow",
-                "Content" : "R&B, ragga, soul, <br />old school, revival"
+                "Content" : "R&B, ragga, soul, old school, revival",
+                "Left" : 40.161984958539584,
+                "Top" : 18.960797479454023
             },
             "High-Grade" : {
                 "Title" : "High Grade",
-                "Content" : "Reggae & roots"
+                "Content" : "Reggae & roots",
+                "Left" : 28.022755029890096,
+                "Top" : 44.336552863999984
             },
             "Jah-Observer" : {
                 "Title" : "Jah Observer",
-                "Content" : "Roots & culture"
+                "Content" : "Roots & culture",
+                "Left" : 60.368322941441136,
+                "Top" : 56.26775476469861
             },
             "Killawatt" : {
                 "Title" : "Killawatt",
-                "Content" : "Reggae, ragga, dancehall"
+                "Content" : "Reggae, ragga, dancehall",
+                "Left" : 51.610207623577864,
+                "Top" : 44.82206497596296
             },
             "King-Tubbys" : {
                 "Title" : "King Tubbys",
-                "Content" : "Reggae, dancehall, bashment, R&B"
+                "Content" : "Reggae, dancehall, bashment, R&B",
+                "Left" : 49.263996914572246,
+                "Top" : 54.12943546301353
             },
             "Latin-Rave-Street-Jam" : {
                 "Title" : "Latin Rave Street Jam",
-                "Content" : "Latin & salsa"
+                "Content" : "Latin & salsa",
+                "Left" : 28.504853120781693,
+                "Top" : 33.5106657713826
             },
             "Lord-Gellys" : {
                 "Title" : "Lord Gelly's",
-                "Content" : "Reggae, R&B, soca & beyond"
+                "Content" : "Reggae, R&B, soca & beyond",
+                "Left" : 26.161856399048688,
+                "Top" : 48.89210268062703
             },
             "Mangrove-Sound" : {
                 "Title" : "Mangrove Sound",
-                "Content" : "Soca & reggae"
+                "Content" : "Soca & reggae",
+                "Left" : 47.26489683100854,
+                "Top" : 51.03042198231211
             },
+            /* dont have data for mastermind roadshow */
+            /*
             "Mastermind-Roadshow" : {
                 "Title" : "Mastermind Roadshow",
-                "Content" : "Upfront R&B, hip hop, <br />soul, old school, reggae"
+                "Content" : "Upfront R&B, hip hop, <br />soul, old school, reggae",
+                "Left" : "",
+                "Top" : ""
             },
+            */
             "Mellowtone" : {
                 "Title" : "Mellowtone",
-                "Content" : "Soul, ragga, R&B, revival"
+                "Content" : "Soul, ragga, R&B, revival",
+                "Left" : 22.369351417368367,
+                "Top" : 28.340478281055393
             },
             "Metro-Glory" : {
                 "Title" : "Metro Glory",
-                "Content" : "House to roots"
+                "Content" : "House to roots",
+                "Left" : 57.4693064215466,
+                "Top" : 50.61205516240843
             },
             "Nasty-Love-Mixing-Lab" : {
                 "Title" : "Nasty Love Mixing Lab",
-                "Content" : "Reggae, ragga, hip hop, R&B"
+                "Content" : "Reggae, ragga, hip hop, R&B",
+                "Left" : 51.19560326541107,
+                "Top" : 59.44424358244233
             },
             "Peoples-Sound" : {
                 "Title" : "People's Sound",
-                "Content" : "Old & new reggae"
+                "Content" : "Old & new reggae",
+                "Left" : 48.84939255640553,
+                "Top" : 50.405454263702346
             },
             "Pineapple-Tribe" : {
                 "Title" : "Pineapple Tribe",
-                "Content" : "Techno & breaks"
+                "Content" : "Techno & breaks",
+                "Left" : 61.81461721411583,
+                "Top" : 64.06177366871057
             },
             "Rapattack" : {
                 "Title" : "Rapattack",
-                "Content" : "Old school soul, <br />rare groove, UKG, funky"
+                "Content" : "Old school soul, rare groove, UKG, funky",
+                "Left" : 45.195089027447516,
+                "Top" : 45.44186767211792
             },
             "Rough-But-Sweet" : {
                 "Title" : "Rough But Sweet",
-                "Content" : "Reggae, dub, calypso, garage"
+                "Content" : "Reggae, dub, calypso, garage",
+                "Left" : 38.230378607700764,
+                "Top" : 14.890759774789949
             },
             "Sancho-Panza" : {
                 "Title" : "Sancho Panza",
-                "Content" : "Funky house, disco, techno"
+                "Content" : "Funky house, disco, techno",
+                "Left" : 22.092948511923954,
+                "Top" : 10.825887092580686
             },
             "Saxon-Studio" : {
                 "Title" : "Saxon Studio",
-                "Content" : "Ragga & reggae"
+                "Content" : "Ragga & reggae",
+                "Left" : 24.09204859548757,
+                "Top" : 33.09746397393372
             },
             "Sir-Lloyd" : {
                 "Title" : "Sir Lloyd",
-                "Content" : "R&B & reggae"
+                "Content" : "R&B & reggae",
+                "Left" : 53.05650189625247,
+                "Top" : 40.19936986723992
             },
             "Sir-Valdez" : {
                 "Title" : "Sir Valdez",
-                "Content" : "R&B, hip hop, ragga"
+                "Content" : "R&B, hip hop, ragga",
+                "Left" : 38.09217715497847,
+                "Top" : 21.992665668096148
             },
             "SSP-Sound-System" : {
                 "Title" : "SSP Sound System",
-                "Content" : "Funky & soulful house, UKG, classics"
+                "Content" : "Funky & soulful house, UKG, classics",
+                "Left" : 30.092562833451215,
+                "Top" : 8.961313981697689
             },
             "The-Fun-Bunch" : {
                 "Title" : "The Fun Bunch",
-                "Content" : "R&B, hip hop, garage, boogie"
+                "Content" : "R&B, hip hop, garage, boogie",
+                "Left" : 68.02404062479918,
+                "Top" : 54.47549196836642
             },
             "Virgo-International" : {
                 "Title" : "Virgo International",
-                "Content" : "Reggae, soca, <br />hip hop, R&B, garage"
+                "Content" : "Reggae, soca, hip hop, R&B, garage",
+                "Left" : 24.36845150093207,
+                "Top" : 45.648468570824015
             },
             "Westbourne-Park" : {
                 "Title" : "Westbourne Park",
-                "Content" : ""
+                "Content" : "<i>Exit only from 11:00-18:00 <br />station closes at 23:30</i>",
+                "Left" : 56.56296201067045,
+                "Top" : 34.26992407414765
             },
             "Ladbroke-Grove" : {
                 "Title" : "Ladbroke Grove",
-                "Content" : "<i>Travel disruptions are <br />not yet available</i>"
+                "Content" : "<i>Station closed</i>",
+                "Left" : 26.62145657903199,
+                "Top" : 53.235886576093186
             },
             "Royal-Oak" : {
                 "Title" : "Royal Oak",
-                "Content" : "<i>Travel disruptions are <br />not yet available</i>"
+                "Content" : "<i>Travel information <br />not yet available</i>",
+                "Left" : 97.65700327826701,
+                "Top" : 43.16409276378605
             },
             "Bayswater" : {
                 "Title" : "Bayswater",
-                "Content" : "<i>Travel disruptions are <br />not yet available</i>"
+                "Content" : "<i>Travel information <br />not yet available</i>",
+                "Left" : 98.6211994600502,
+                "Top" : 79.72212179121189
             },
             "NH-gate" : {
                 "Title" : "Notting Hill Gate",
-                "Content" : "<i>Travel disruptions are <br />not yet available</i>"
+                "Content" : "<i>12:00-19:00 exit only <br />no circle & district line access</i>",
+                "Left" : 72.49469692100025,
+                "Top" : 96.06941790196417
             }
 		};
 
     	Zepto(function($){
-    		console.log("zepto is ready!");
 
     		var $headerTitle = $("#headerTitle"),
-                $panelBtn = $("#panelBtn"),
+                $sidebarBtn = $("#sidebarBtn"),
+                $nav_li_a = $("nav li a"), 
     			$dropDownBtn = $("#dropDownBtn"),
     			$soundsystemMenu = $("#soundsystemMenu"),
     			$soundsystemMenu_a = $soundsystemMenu.find("a"),
     			$youAreHere = $("#youAreHere"),
     			$soundSystemMarkers = $("#soundSystemMarkers"),
+                $routeMarkers = $("#routeMarkers"),
+                $firstAidMarkers = $("#firstAidMarkers"),
+                $toiletMarkers = $("#toiletMarkers"),
     			//$marker = $(".marker"),
                 $marker = $soundSystemMarkers.find("a").add("#stationMarkers a"),
     			$popoverBlock = $("#popoverBlock"),
@@ -298,6 +384,10 @@ var app = {
     			$popoverContent = $popoverBlock.find("#popoverContent"),
                 $map = $("#map");
 
+            $headerTitle.html("soundsystems");
+            $dropDownBtn.show();
+            $soundSystemMarkers.show();
+            /*
             currentPage = "soundsystemsPage";
             switch ( currentPage ) {
                 case "soundsystemsPage" :
@@ -307,21 +397,67 @@ var app = {
                     break;
                 case "routePage" :
                     $headerTitle.html("the route");
+                    $dropDownBtn.hide();
                     break;
                 case "firstaidPage" :
                     $headerTitle.html("first aid");
+                    $dropDownBtn.hide();
+                    break;
+                case "toiletsPage" :
+                    $headerTitle.html("toilets");
+                    $dropDownBtn.hide();
                     break;
                 default :
-                    $headerTitle.html("default");
+                    $headerTitle.html("Notting Hill 2013");
             }
-    		
-            var myScroll = new iScroll('scroll', { hScroll: false });
-            var myZoom = new iScroll('map', { zoom: true, lockDirection: false, bounce: false });
+            */
+            
+
+
+            var myScroll;
+            myScroll = new iScroll('scroll', { hScroll: false, vScrollbar: false });
+            setTimeout(function () {
+                myScroll.refresh();
+            }, 0);
+
+            /*
+            var myZoom;
+            myZoom = new iScroll('map', { zoom: true, lockDirection: false, bounce: false, hScrollbar: false, vScrollbar: false });
+            setTimeout(function() {
+                myZoom.refresh();
+            }, 0);
+            */
+
+            function positionScrollbars() {
+                /*
+                var xA = longLeft < 33, xB = longLeft > 33 && < 66, xC = longLeft > 66,
+                    yA = latTop < 33, yB = latTop > 33 && < 66, yC = latTop > 66;
+                */
+
+                // is a 9 grid really neccessary when you are zoomed out?
+                // maybe use a 4 grid and do nothing (return false) for top-left
+
+                if ( longLeft < 33 && latTop < 33 ) {
+                    console.log("top left");
+                }
+                else if ( ( 33 < longLeft < 66 ) && latTop < 33 ) {
+                    console.log("top center");
+                }
+                else if ( longLeft > 66 && latTop < 33 ) {
+                    console.log("top right");
+                }
+                else {
+                    console.log("go to center if default");
+                }
+                
+            }
 
             if ( longLeft !== null && latTop !== null) {
-                //$youAreHere.css("left", longLeft +"%").css("top", latTop +"%");
-                $youAreHere.css("left", "50%").css("top", "50%");
+                $youAreHere.css("left", longLeft +"%").css("top", latTop +"%");
                 $youAreHere.show();
+                positionScrollbars();
+            } else {
+                //display info bar or icon
             }
 
             /*
@@ -342,15 +478,16 @@ var app = {
                                 '<hr />'      + element.innerHTML;
             */
 
-            $("#geolocation").html("<br /><br /><br /><br />"+lat +" , "+ long).append("<br />"+ latTop +" , "+longLeft);
+            //$("#geolocation").html("<br /><br /><br /><br />"+lat +" , "+ long).append("<br />"+ latTop +" , "+longLeft);
 
     		$dropDownBtn.on('tap', function() {
-    			if ( $soundsystemMenu.css('display') == 'none' ) {
+                $soundsystemMenu.toggleClass('enabled');
+    			/*if ( $soundsystemMenu.css('display') == 'none' ) {
+                    myScroll.destroy();
     				$soundsystemMenu.show();
     			} else {
 					$soundsystemMenu.hide();
-    			}
-
+    			}*/
     			return false;
     		});
 
@@ -359,9 +496,18 @@ var app = {
     			// populate fields , position and show info bubble
     			var title = Data[dataName].Title;
     			var content = Data[dataName].Content;
+                var left = Data[dataName].Left;
+                var top = Data[dataName].Top;
+
     			$popoverTitle.html(title);
     			$popoverContent.html(content);
-    			$popoverBlock.show();
+                if ( left < 22 || top < 22 && left < 50 ) {
+                    $popoverBlock.removeClass("arrowRight arrowBottom").addClass("arrowLeft").css("left", left +"%").css("top", top +"%").show();
+                } else if ( left > 75 || top < 22 && left > 50 ) {
+                    $popoverBlock.removeClass("arrowLeft arrowBottom").addClass("arrowRight").css("left", left +"%").css("top", top +"%").show();
+                } else {
+    		        $popoverBlock.removeClass("arrowLeft arrowRight").addClass("arrowBottom").css("left", left +"%").css("top", top +"%").show();
+                }
     		};
     		
     		$marker.on('tap', function() {
@@ -372,7 +518,7 @@ var app = {
 
     		$soundsystemMenu_a.on('tap', function() {
     			var dataName = $(this).attr("data-name");
-    			$soundsystemMenu.hide();
+    			$soundsystemMenu.toggleClass('enabled');
     			infoBubble(dataName);
     			return false;
     		});
@@ -383,16 +529,68 @@ var app = {
             });
 
 
-            function revealPanel() {
-                console.log("reveal Panel function fired!");
+            function toggleSidebar() {
+                $('body').toggleClass('active');
+                return false;
             }
 
-            $panelBtn.on('tap', function() {
-                revealPanel();
+            $sidebarBtn.on('tap', function() {
+                toggleSidebar();
+                return false;
+            });
+
+            $nav_li_a.on('tap', function() {
+                //$(this).addClass('current');
+                var href = $(this).attr('href');
+                switch ( href ) {
+                    case "#nav-soundsystems" :
+                        //currentPage = "soundsystemsPage";
+                        $nav_li_a.removeClass('current');
+                        $(this).addClass('current');
+                        $headerTitle.html("soundsystems");
+                        $dropDownBtn.show();
+                        $soundSystemMarkers.show();
+                        break;
+                    case "#nav-the-route" :
+                        //currentPage = "routePage";
+                        $nav_li_a.removeClass('current');
+                        $(this).addClass('current');
+                        $headerTitle.html("the route");
+                        if ( $soundsystemMenu.hasClass('enabled') ) { $soundsystemMenu.removeClass('enabled') };
+                        $dropDownBtn.hide();
+                        $routeMarkers.show();
+                        break;
+                    case "#nav-first-aid" :
+                        //currentPage = "firstaidPage";
+                        $nav_li_a.removeClass('current');
+                        $(this).addClass('current');
+                        $headerTitle.html("first aid");
+                        if ( $soundsystemMenu.hasClass('enabled') ) { $soundsystemMenu.removeClass('enabled') };
+                        $dropDownBtn.hide();
+                        break;
+                    case "#nav-toilets" : 
+                        //currentPage = "toiletsPage";
+                        $nav_li_a.removeClass('current');
+                        $(this).addClass('current');
+                        $headerTitle.html("toilets");
+                        if ( $soundsystemMenu.hasClass('enabled') ) { $soundsystemMenu.removeClass('enabled') };
+                        $dropDownBtn.hide();
+                        break;
+                }
+                toggleSidebar();
                 return false;
             });
 
     	});
+
+        window.onload = function() {
+            var myZoom;
+            myZoom = new iScroll('map', { zoom: true, lockDirection: false, bounce: false, hScrollbar: false, vScrollbar: false });
+            setTimeout(function() {
+                myZoom.refresh();
+            }, 0);
+            console.log("window onload firing!");
+        }
     	/*
         var parentElement = document.getElementById(id);
         var listeningElement = parentElement.querySelector('.listening');
